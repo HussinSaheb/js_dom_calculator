@@ -31,7 +31,7 @@ for (var i = 0; i < operators.length; i++) {
     // operator is the button presed
     operator = this.innerHTML;
     // clear display from value to capture number 2
-    screen.innerHTML = "";
+    screen.innerHTML = "0";
   });
 }
 
@@ -51,5 +51,6 @@ equals.addEventListener('click', function(){
 // add click listener to clear calc
 ac.addEventListener("click", function(){
   // clearing is basically removing all the
-  number_1,number_2, operator, screen.innerHTML = "";
+  number_1,number_2, operator = "";
+  screen.innerHTML = "0";
 });
