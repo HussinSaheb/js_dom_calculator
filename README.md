@@ -9,7 +9,7 @@ the aim of this work is to build a basic calculator by using the DOM object in j
 * result of any given operation must be displayed at the main screen at top.
 
 
-### Jasmine - test basic functions
+### Jasmine - test basic functions
 * this project will use jasmine for a TDD approach.
 * Rquires
   * node.js
