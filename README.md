@@ -19,4 +19,4 @@ the aim of this work is to build a basic calculator by using the DOM object in j
 
 #### My approach
 I've created 4 functions that do the basic calculations: add, subtract, divide and multiply. I then used them in another function called calculation.
-calculation function takes 3 parameters: first is a number, second is an operator and third is the second number. The functions applied from the previous four depend on the operator passed as the argument. This is achieved by applying it in an switch case.
+calculation function takes 3 parameters: first is a number, second is an operator and third is the second number. Depending on the operator passed. the calculation function will chose the right function and run it with the two other argument.
