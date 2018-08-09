@@ -1,12 +1,10 @@
 var number_1, number_2, operator;
-
 // retrieve the screen and save as variable
 var screen = document.getElementById('screen');
 // retrieve all the buttons
 var buttons = document.getElementsByClassName("buttonNum");
 // retriece the clear button
 var ac = document.getElementById('clear');
-
 //loop over all buttonNums and add event listener to each
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function(){
@@ -34,8 +32,6 @@ for (var i = 0; i < operators.length; i++) {
     screen.innerHTML = "0";
   });
 }
-
-
 //retrieve the equals
 var equals = document.getElementById('equals');
 equals.addEventListener('click', function(){
@@ -46,8 +42,6 @@ equals.addEventListener('click', function(){
   // display the result to screen.
   screen.innerHTML = result;
 });
-
-
 // add click listener to clear calc
 ac.addEventListener("click", function(){
   // clearing is basically removing all the
