@@ -32,7 +32,7 @@ switch (operation) {
   default:
 }
 }
-
+//exported functions for jasmine testing
 module.exports = {
 addTwoNumbers:addTwoNumbers,
 subtractTwoNumbers:subtractTwoNumbers,
