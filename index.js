@@ -9,7 +9,7 @@ var ac = document.getElementById('clear');
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function(){
     // if the screen has the sparta logo replace it by number clicked
-    if (screen.innerHTML == "Sparta Calculator") {
+    if (screen.innerHTML != "") {
       screen.innerHTML = this.innerHTML;
     }else{
       // else concat to it.
